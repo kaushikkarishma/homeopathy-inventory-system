@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SBL Homeopathy Inventory</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <img src="logo.png" class="logo">
+
+    <h2>🌿 SBL Homeopathy Inventory 🌿</h2>
+
+    <img src="logo.png" class="logo">
+  </div>
+
+  <!-- MOVING TEXT -->
+  <marquee class="marquee">
+    Healing Naturally ✨ | Manage Stock Smartly 💊 | Stay Updated 🚀
+  </marquee>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1 class="welcome">Welcome to SBL Inventory System</h1>
+    <p>Track medicines efficiently</p>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <input type="text" placeholder="Search medicine..." />
+    <input type="file" />
+  </div>
+
+  <!-- TABLE -->
+  <table border="1" width="90%" style="margin: 30px auto; text-align:center; border-collapse: collapse;">
+    
+    <thead style="background: #0f9d58; color: white;">
+      <tr>
+        <th>Medicine Name</th>
+        <th>Potency</th>
+        <th>Form</th>
+        <th>Stock</th>
+        <th>Expiry</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody id="tableBody">
+      <!-- Excel data will come here -->
+    </tbody>
+
+  </table>
+
+</body>
+
+</html>
